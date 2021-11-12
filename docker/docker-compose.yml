@@ -1,0 +1,17 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: pgcon21j
+      POSTGRES_USER: pgcon21j
+      POSTGRES_PASSWORD: pgcon21j!!!
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgcon21j-data:/var/lib/postgresql/data
+    container_name: postgres
+
+# 名前付きボリュームの定義
+volumes:
+  pgcon21j-data:

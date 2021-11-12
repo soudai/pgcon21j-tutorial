@@ -14,3 +14,9 @@
 - [達人に学ぶSQL徹底指南書 第2版 初級者で終わりたくないあなたへ](https://amzn.to/3quontz)
 - [SQL実践入門](https://amzn.to/3Fcf1qi)
 - [SQLパズル 第2版~プログラミングが変わる書き方/考え方](https://amzn.to/31O9ub7)
+
+# 接続方法
+- 起動
+  - `cd docker`
+  - `make up`
+  - `psql -h localhost -U pgcon21j -d pgcon21j -p 5432`
